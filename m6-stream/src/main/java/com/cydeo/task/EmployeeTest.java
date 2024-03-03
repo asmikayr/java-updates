@@ -9,7 +9,7 @@ public class EmployeeTest {
         System.out.println("Print all emails");
 
         EmployeeData.readAll()
-                //.map(employee->employee.getEmpEmai())
+                //.map(employee->employee.getEmpEmail())
                 .map(Employee:: getEmpEmail)
                 .forEach(System.out::println);
 
