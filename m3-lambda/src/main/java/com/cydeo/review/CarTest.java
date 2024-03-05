@@ -13,7 +13,7 @@ public class CarTest {
         carList.add(new Car("Audi" , 200, 2008));
         carList.add(new Car("BMW", 210, 2020));
         carList.add(new Car("Nissan", 150, 2018));
-
+        carList.forEach(car -> System.out.println(car) );
         System.out.println("Fast Cars - Traditional:");
         System.out.println(filterFastCars(carList));
         System.out.println("New Cars - Traditional:");
